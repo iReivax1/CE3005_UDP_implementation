@@ -18,7 +18,7 @@ public class Rfc865UdpClient {
 	//
 	// 1. Open UDP socket
 	//
-		int port = 17;
+		int port = 50001;
 		int bufferSize = 512; // quote is no greater than 512 characters in RFC 865
 		byte[] buffer;
 		byte[] receivingBuffer = new byte[bufferSize];
